@@ -11,13 +11,11 @@
   </head>
   <body>
     <header>
-      <img
-        class="black__circle"
-        width="780"
-        height="780"
-        src="./images/black-circle.png"
-        alt="bacground image"
-      >
+      <picture>
+        <source class="res__black__img" style="z-index: -100;" width="768" srcset="./images/res_black_circle.png" media="(max-width: 768px)">
+        <img width="780"
+        height="780" class="black__circle" src="./images/black-circle.png" alt="bacground image"> 
+      </picture>
         <div class="container">
           <div class="header">
             <div class="header__content">
@@ -74,22 +72,19 @@
               </form>
             </div>
             <div class="hero__right">
-              <img
-                class="hero__right__image"
-                src="./images/iphone-x.svg"
-                alt=" iphone x"
-              >
+              <picture>
+                <source class="hero__right__image" width="255" height="399" srcset="./images/iphone-x.svg" media="(max-width: 768px)">
+                <img class="hero__right__image" src="./images/iphone-x.svg" alt="iphone"> 
+              </picture>
             </div>
           </div>
         </div>
       </section>
       <section>
-        <img
-          class="icons__box"
-          width="1600"
-          src="./images/icons.png"
-          alt="icons"
-        >
+        <picture>
+          <source class="icons__box" width="768" srcset="./images/res_body_card.png" media="(max-width: 768px)">
+          <img class="icons__box" width="1600" alt="icons" src="./images/icons.png"> 
+        </picture>
         <div class="container position">
           <div class="icons">
             <div class="icons__left">
@@ -169,10 +164,13 @@
 
           <div class="worn">
             <div class="worn__box__left">
-              <img class="worn__right__image" src="./images/Iphone2x.png" alt=" iphone x">
+              <picture>
+                <source class="worn__right__image" width="460" srcset="./images/Iphone2x.png" media="(max-width: 768px)">
+                <img class="worn__right__image" src="./images/Iphone2x.png" alt="iphone"> 
+              </picture>
             </div>
             <div class="worn__box__right">
-              <div class="worn__box__right__content">
+              <div class="worn__box__right__content  worn__response">
                 <h3 class="worn__box__right__content__title">
                     Simple UI & UX
                 </h3>
@@ -238,7 +236,10 @@
       </section>
     </main>
     <footer>
-            <img width="1600" height="100" src="./images/footer.png" alt="footer">
+            <picture>
+              <source width="768" height="100" srcset="./images/footer_res.png" media="(max-width: 768px)">
+              <img width="1600" height="100" src="./images/footer.png" alt="footer"> 
+            </picture>
             <div class="container">
                 <div class="footer">
                     <img class="footer__img" src="./images/footer_logo.svg" alt="payapi">

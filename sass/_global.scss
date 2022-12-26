@@ -1,43 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: #EDF3F8;
-    font-family: "PublicSans";
-}
-
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
-ul{
-    list-style: none;
+body {
+  background: #edf3f8;
+  font-family: "PublicSans";
 }
 
-
-a{
-    text-decoration: none;
-    color: #000;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
 }
 
-span{
-    font-family: PublicBold;
+a {
+  text-decoration: none;
+  color: #000;
 }
-button{
-    width: 173px;
-    height: 50px;
-    background: #BA4270;
-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-border-radius: 24px;
-border: 3px solid #BA4270 ;
-font-family: 'PublicBold';
-font-size: 15px;
-line-height: 20px;
-letter-spacing: -0.115385px;
 
-color: #FBFCFE;
+span {
+  font-family: PublicBold;
 }
-.position{
-    position: relative;
+button {
+  width: 173px;
+  height: 50px;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  border: 3px solid #ba4270;
+  font-family: "PublicBold";
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.115385px;
+
+  color: #fbfcfe;
+}
+button:hover{
+  background-color: rgba(218, 109, 151, 1);
+  border: 3px solid rgba(218, 109, 151, 1);
+}
+.icons__left__btn:hover{
+  color: rgba(27, 38, 47, 1);
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+
+.position {
+  position: relative;
 }

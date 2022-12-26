@@ -10,38 +10,50 @@
     <title>PAYAPI</title>
   </head>
   <body>
-    <header>
-      <picture>
-        <source class="res__black__img" style="z-index: -100;" width="768" srcset="./images/res_black_circle.png" media="(max-width: 768px)">
-        <img width="780"
-        height="780" class="black__circle" src="./images/black-circle.png" alt="bacground image"> 
-      </picture>
-        <div class="container">
-          <div class="header">
-            <div class="header__content">
-              <img
-                class="header__logo"
-                src="./images/payap-logo.svg"
-                alt="payapi logo"
-              >
-              <ul class="header__list">
-                <li class="header__item">
-                  <a class="header__link" href="">Pricing</a>
-                </li>
-                <li class="header__item">
-                  <a class="header__link" href="">About</a>
-                </li>
-                <li class="header__item">
-                  <a class="header__link" href="">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <button class="header__btn">Schedule a Demo</button>
+    <header class="header__nav-wrapper">
+      <div class="container">
+        <div class="header">
+          <div class="header__content">
+            <img
+              class="header__logo"
+              src="./images/payap-logo.svg"
+              alt="payapi logo"
+            >
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="">Pricing</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="">About</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="">Contact</a>
+              </li>
+            </ul>
           </div>
-        </div>   
+          <button class="header__btn">Schedule a Demo</button>
+          <div class="menu">
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+            <span class="menu__line"></span>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <section>
+        <img
+          class="res__black__img"
+          src="./images/res_black_circle.png"
+          alt="payapi lo"
+        >
+        <img
+          width="780"
+          height="780"
+          class="black__circle"
+          src="./images/black-circle.png"
+          alt="bacground image"
+        >
         <div class="container">
           <div class="hero">
             <div class="hero_left">
@@ -50,7 +62,6 @@
               </h1>
               <form
                 class="hero__left__form"
-                
                 target="_blank"
                 action="https://echo.htmlacademy.ru/"
               >
@@ -58,7 +69,6 @@
                   required
                   class="hero__left__input"
                   type="text"
-                  
                   placeholder="Enter email address"
                   name="Email"
                 >
@@ -73,19 +83,22 @@
             </div>
             <div class="hero__right">
               <picture>
-                <source class="hero__right__image" width="255" height="399" srcset="./images/iphone-x.svg" media="(max-width: 768px)">
-                <img class="hero__right__image" src="./images/iphone-x.svg" alt="iphone"> 
+                <source
+                  class="hero__right__image"
+                  srcset="./images/iphone-x.svg"
+                >
+                <img
+                  class="hero__right__image"
+                  src="./images/iphone-x.svg"
+                  alt="iphone"
+                >
               </picture>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <picture>
-          <source class="icons__box" width="768" srcset="./images/res_body_card.png" media="(max-width: 768px)">
-          <img class="icons__box" width="1600" alt="icons" src="./images/icons.png"> 
-        </picture>
-        <div class="container position">
+      <section class="icons-wrapper">
+        <div class="container">
           <div class="icons">
             <div class="icons__left">
               <h2 class="icons__left__title">Who we work with</h2>
@@ -101,10 +114,14 @@
               <picture>
                 <source
                   srcset="./images/networks_mini.png"
-                  media="(max-width: 375px)"
-                  
+                  media="(max-width: 550px)"
+                  class="res-image-icons"
                 >
-                <img width="536" src="./images/network_icons.png"  alt="second image">
+                <img
+                  src="./images/network_icons.png"
+                  alt="second image"
+                  class="res"
+                >
               </picture>
             </div>
           </div>
@@ -148,7 +165,7 @@
                 </div>
               </div>
             </div>
-            <div class="worn__box__right">
+            <div class="">
               <div class="worn__box__right__content">
                 <h3 class="worn__box__right__content__title">
                   Easy to implement
@@ -165,12 +182,12 @@
           <div class="worn">
             <div class="worn__box__left">
               <picture>
-                <source class="worn__right__image" width="460" srcset="./images/Iphone2x.png" media="(max-width: 768px)">
+                <source class="worn__right__image" srcset="./images/Iphone2x.png" media="(max-width: 768px)">
                 <img class="worn__right__image" src="./images/Iphone2x.png" alt="iphone"> 
               </picture>
             </div>
             <div class="worn__box__right">
-              <div class="worn__box__right__content  worn__response">
+              <div class="worn__box__right__content res-right">
                 <h3 class="worn__box__right__content__title">
                     Simple UI & UX
                 </h3>
@@ -181,9 +198,8 @@
             </div>
           </div>
         </div>
-        <img class="half__image" src="./images/half_circle.png" alt="half circle">
       </section>
-      <section>
+       <section>
         <div class="container">
             <div class="highlights">
                 <div class="highlight">
@@ -202,46 +218,44 @@
                 </div>
                 <div class="highlight">
                     <ul class="highlight__list">
-                        <li><img class="highlight__img" src="./images/high_img3.svg" alt="card"></li>
+                        <li class="highlight__img"><img class="highlight__img" src="./images/high_img3.svg" alt="card"></li>
                         <li><h4 class="highlight__title">Consumer Payments</h4></li>
                         <li><p class="highlight__text">It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p></li>
                     </ul>
                 </div>
             </div>
         </div>
-      </section>
+      </section> 
       <section>
         <div class="container">
             <div class="last">
                 <h4 class="last__title">Ready to start?</h4>
                 <form
-                class="hero__left__form"
+                
+                class="hero__left__form last-left-form"
                 target="_blank"
                 action="https://echo.htmlacademy.ru/"
               >
                 <input
                   required
-                  class="hero__left__input  last__input"
+                  class="hero__left__input"
                   type="text"
                   placeholder="Enter email address"
                   name="Email"
                 >
 
-                <button class="hero__left__btn last__btn" type="submit">
+                <button class="hero__left__btn" type="submit">
                   Schedule a Demo
                 </button>
               </form>
             </div>
         </div>
-      </section>
+      </section> 
     </main>
-    <footer>
-            <picture>
-              <source width="768" height="100" srcset="./images/footer_res.png" media="(max-width: 768px)">
-              <img width="1600" height="100" src="./images/footer.png" alt="footer"> 
-            </picture>
+    <footer>      
             <div class="container">
                 <div class="footer">
+                  <div class="footer__nav-wrapper">
                     <img class="footer__img" src="./images/footer_logo.svg" alt="payapi">
                     <ul class="header__list  footer__list">
                         <li class="header__item">
@@ -254,7 +268,8 @@
                           <a class="header__link footer__item" href="">Contact</a>
                         </li>
                     </ul>
-                    <img class="footer__social" src="./images/social.svg" alt="social networks">
+                  </div>
+                  <img class="footer__social" src="./images/social.svg" alt="social networks">
                 </div>
             </div>
     </footer>

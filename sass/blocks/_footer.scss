@@ -1,49 +1,79 @@
-footer{
-    margin-top: 100px;
-    .footer{
-        &__img{
-            position: absolute;
-            margin-top: -75px;
-        }
-        &__list{
-            position: absolute;
-            margin-top: -65px;
-            margin-left: 250px;
-        }
-        &__item{
-            color: #FBFCFE;
-        }
-        &__social{
-            position:absolute;
-            margin-top: -65px;
-            right: 200px;
-        }
+footer {
+  padding: 1.5rem 0;
+  background: url("../../images/footer.png");
+  background-size: cover;
+  margin-top: 100px;
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    @media screen and (max-width: 670px) {
+      flex-direction: column;
     }
-}
+    // &__img {
+    //   position: absolute;
+    //   margin-top: -75px;
+    // }
+    // &__list {
+    //   position: absolute;
+    //   margin-top: -65px;
+    //   margin-left: 250px;
+    // }
+    &__nav-wrapper {
+      display: flex;
+      align-items: center;
 
-
-@media only screen and (max-width: 768px) {
-
-    footer{
-    margin-top: 100px;
-    .footer{
-        &__img{
-            position: absolute;
-            margin-top: -75px;
-        }
-        &__list{
-            position: absolute;
-            margin-top: -65px;
-            margin-left: 223px;
-        }
-        &__item{
-            color: #FBFCFE;
-        }
-        &__social{
-            position:absolute;
-            margin-top: -65px;
-            right: 78px;
-        }
+      @media screen and (max-width: 670px) {
+        flex-direction: column;
+        align-items: center;
+      }
     }
+    &__item {
+      color: #fbfcfe;
+    }
+    // &__social {
+    //   position: absolute;
+    //   margin-top: -65px;
+    //   right: 200px;
+    // }
+
+    .header__list {
+      display: flex;
+      margin-left: 65px;
+      gap: 40px;
+
+      @media screen and (max-width: 670px) {
+        flex-direction: column;
+        margin: 2rem 0;
+        text-align: center;
+      }
+    }
+  }
 }
-}
+
+// @media only screen and (max-width: 768px) {
+//   footer {
+//     margin-top: 100px;
+//     .footer {
+//       &__img {
+//         position: absolute;
+//         margin-top: -75px;
+//       }
+//       &__list {
+//         position: absolute;
+//         margin-top: -65px;
+//         margin-left: 223px;
+//       }
+//       &__item {
+//         color: #fbfcfe;
+//       }
+//       &__social {
+//         position: absolute;
+//         margin-top: -65px;
+//         right: 78px;
+//       }
+//     }
+//   }
+// }

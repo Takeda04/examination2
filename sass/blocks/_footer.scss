@@ -12,15 +12,7 @@ footer {
     @media screen and (max-width: 670px) {
       flex-direction: column;
     }
-    // &__img {
-    //   position: absolute;
-    //   margin-top: -75px;
-    // }
-    // &__list {
-    //   position: absolute;
-    //   margin-top: -65px;
-    //   margin-left: 250px;
-    // }
+
     &__nav-wrapper {
       display: flex;
       align-items: center;
@@ -33,11 +25,6 @@ footer {
     &__item {
       color: #fbfcfe;
     }
-    // &__social {
-    //   position: absolute;
-    //   margin-top: -65px;
-    //   right: 200px;
-    // }
 
     .header__list {
       display: flex;
@@ -53,27 +40,3 @@ footer {
   }
 }
 
-// @media only screen and (max-width: 768px) {
-//   footer {
-//     margin-top: 100px;
-//     .footer {
-//       &__img {
-//         position: absolute;
-//         margin-top: -75px;
-//       }
-//       &__list {
-//         position: absolute;
-//         margin-top: -65px;
-//         margin-left: 223px;
-//       }
-//       &__item {
-//         color: #fbfcfe;
-//       }
-//       &__social {
-//         position: absolute;
-//         margin-top: -65px;
-//         right: 78px;
-//       }
-//     }
-//   }
-// }

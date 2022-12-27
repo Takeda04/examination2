@@ -46,62 +46,6 @@ header .header__list {
   }
 }
 
-// @media only screen and (max-width: 768px) {
-//   .container {
-//     max-width: 680px;
-//     margin: 0 auto;
-//   }
-
-//   .header {
-//     &__btn {
-//       margin-left: -100px;
-
-//       @media screen and (max-width: 375px) {
-//         display: none;
-//       }
-//     }
-
-//     &__content {
-//       display: flex;
-//       align-items: center;
-//     }
-//     &__list {
-//       display: flex;
-//       margin-left: 65px;
-//       gap: 40px;
-//     }
-//     &__link {
-//       font-family: "PublicBold";
-//       font-style: normal;
-//       font-weight: 700;
-//       font-size: 15px;
-//       line-height: 18px;
-//       color: #36536b;
-
-//       mix-blend-mode: normal;
-//       opacity: 0.7;
-//     }
-//   }
-// }
-
-// .menu {
-//   display: flex;
-//   padding: inherit;
-//   flex-direction: column;
-//   background-color: orange;
-//   gap: 10px;
-//   display: none;
-//   &__line {
-//     display: inline-block;
-//     width: 50px;
-//     height: 4px;
-//     background: #36536b;
-//   }
-
-//   @media screen and (max-width: 375px) {
-//     display: flex;
-//   }
-// }
 .menu {
   display: flex;
   padding: inherit;
